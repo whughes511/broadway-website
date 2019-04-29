@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /etc/
+Disallow: /ssl/
+Disallow: /tmp/
+Disallow: /access-logs/

@@ -1,0 +1,119 @@
+.gCalFlow {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  float: left;
+  font-size: 90%;
+  text-decoration: none;
+  padding-bottom: 1em; 
+  white-space: normal;
+  overflow: hidden;
+}
+
+  .gCalFlow a, .gCalFlow a:visited, .gCalFlow a:hover {
+    color: #c55549;
+    font-family: "Lato", Helvetica, sans-serif;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .gCalFlow a:hover {
+    text-decoration: none; 
+  }
+
+  .gCalFlow .gcf-header-block {
+    padding: 5px 4px; 
+  }
+
+  .gCalFlow .gcf-title-block {
+    color: white; 
+    font-family: "Lato", Helvetica, sans-serif;
+  }
+
+    .gCalFlow .gcf-title-block a, .gCalFlow .gcf-title-block a:visited, .gCalFlow .gcf-title-block a:hover {
+      _color: white; 
+    }
+
+  .gCalFlow .gcf-last-update-block {
+    font-size: 50%;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    padding-right: 4px;
+    position: absolute; 
+  }
+
+  .gCalFlow .gcf-item-container-block {
+    position: relative;
+    overflow-y: hidden;
+    height: 100%; 
+  }
+
+
+  @media (min-width: 993px){
+    /* Big view stuff goes here. */
+    .gCalFlow .gcf-item-block {
+      position: relative;
+      height: 200px;
+      padding: 30px 16px;
+      margin: 8px 0px;
+      border-bottom: 1px solid rgba(204, 204, 204, 0.705);
+    }
+  }
+  @media (max-width: 992px) and (min-width: 601px){
+    /* Smaller view stuff goes here. */
+    .gCalFlow .gcf-item-block {
+      position: relative;
+      height: 200px;
+      padding: 8px 8px;
+      margin: 8px 0px;
+      border-bottom: 1px solid rgba(204, 204, 204, 0.705);
+    }
+  }
+  @media (max-width: 600px){
+    /* Stuff for really small views goes here. */
+    .gCalFlow .gcf-item-block {
+      position: relative;
+      height: 350px;
+      padding: 8px 8px;
+      margin: 8px 0px;
+      border-bottom: 1px solid rgba(204, 204, 204, 0.705);
+    }
+  }
+
+  .gCalFlow .gcf-item-header-block {
+    white-space: normal; 
+  }
+
+  .gCalFlow .gcf-item-date-block {
+    font-size: 76%;
+    font-weight: lighter;
+  }
+
+  .gCalFlow .gcf-item-title-block {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9); 
+  }
+
+  .gCalFlow .gcf-item-body-block {
+    font-size: 80%;
+    color: #999;
+    max-height: 2.45em; 
+  }
+
+
+.gCalFlow {
+  background: transparent;
+  zoom: 1;
+  color: black; 
+}
+
+  .gCalFlow .gcf-header-block {
+    display:none;
+    background: transparent;
+    zoom: 1; 
+  }
+
+  .gCalFlow .gcf-item-body-block {
+    color: #333; 
+  }
+
