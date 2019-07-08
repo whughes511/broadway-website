@@ -13,11 +13,11 @@ function myAccFunc(id) {
     var x = document.getElementById(id);
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-        x.previousElementSibling.className += " w3-flat-pomegranate";
+        x.previousElementSibling.className += " w3-flat-green-sea";
     } else { 
         x.className = x.className.replace(" w3-show", "");
         x.previousElementSibling.className = 
-        x.previousElementSibling.className.replace(" w3-flat-pomegranate", "");
+        x.previousElementSibling.className.replace(" w3-flat-green-sea", "");
     }
 }
 
@@ -25,11 +25,11 @@ function myAccFuncMobile(id) {
     var x = document.getElementById(id);
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-        x.previousElementSibling.className += " w3-flat-pomegranate";
+        x.previousElementSibling.className += " w3-flat-green-sea";
     } else { 
         x.className = x.className.replace(" w3-show", "");
         x.previousElementSibling.className = 
-        x.previousElementSibling.className.replace(" w3-flat-pomegranate", "");
+        x.previousElementSibling.className.replace(" w3-flat-green-sea", "");
     }
 }
 
@@ -92,9 +92,9 @@ function openCity(evt, cityName) {
     }
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < x.length; i++) {
-       tablinks[i].className = tablinks[i].className.replace(" w3-border-pomegranate", "");
+       tablinks[i].className = tablinks[i].className.replace(" w3-border-teal", "");
     }
     document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.firstElementChild.className += " w3-border-pomegranate";
+    evt.currentTarget.firstElementChild.className += " w3-border-teal";
   }
 
