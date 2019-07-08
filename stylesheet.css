@@ -157,13 +157,13 @@ body, html {
   #countholder > div{
    padding: 4px 10px;
    border-radius: 6px;
-   background: #cc3000;
+   background: #000080;
    display: inline-block;
   }
    
   #countholder div > span{
    border-radius: 6px;
-   background: #cc3300;
+   background: #000080;
    display: inline-block;
   }
    
