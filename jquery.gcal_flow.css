@@ -3,7 +3,7 @@
   width: 300px;
   height: 100%;
   float: left;
-  font-size: 90%;
+  font-size: 95%;
   text-decoration: none;
   padding-bottom: 1em; 
   white-space: normal;
@@ -11,7 +11,7 @@
 }
 
   .gCalFlow a, .gCalFlow a:visited, .gCalFlow a:hover {
-    color: #c55549;
+    color: #009688;
     font-family: "Lato", Helvetica, sans-serif;
     background-color: transparent;
     text-decoration: none;
