@@ -1,0 +1,46 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    - /bin/cp -R SERVER $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R backups $DEPLOYPATH
+    - /bin/cp -R protected $DEPLOYPATH
+    - /bin/cp app.js $DEPLOYPATH
+    - /bin/cp broadway-adults.html $DEPLOYPATH
+    - /bin/cp broadway-kids.html $DEPLOYPATH
+    - /bin/cp broadway-men.html $DEPLOYPATH
+    - /bin/cp broadway-women.html $DEPLOYPATH
+    - /bin/cp broadway-worship.html $DEPLOYPATH
+    - /bin/cp colors.css $DEPLOYPATH
+    - /bin/cp contact-form.css $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp convictions.html $DEPLOYPATH
+    - /bin/cp events.html $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp give.html $DEPLOYPATH
+    - /bin/cp globalize.cultures.js $DEPLOYPATH
+    - /bin/cp globalize.js $DEPLOYPATH
+    - /bin/cp googleaec6bf9b267a5b89.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp innerstate-students.html $DEPLOYPATH
+    - /bin/cp jquery.gcal_flow.css $DEPLOYPATH
+    - /bin/cp jquery.gcal_flow.js $DEPLOYPATH
+    - /bin/cp kingdom-way.html $DEPLOYPATH
+    - /bin/cp mailer-adults.php $DEPLOYPATH
+    - /bin/cp mailer-contact.php $DEPLOYPATH
+    - /bin/cp mailer-kids.php $DEPLOYPATH
+    - /bin/cp mailer-preschool.php $DEPLOYPATH
+    - /bin/cp mailer-students.php $DEPLOYPATH
+    - /bin/cp mailer-worship.php $DEPLOYPATH
+    - /bin/cp ministries.html $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp snippets.html $DEPLOYPATH
+    - /bin/cp staff.html $DEPLOYPATH
+    - /bin/cp stylesheet.css $DEPLOYPATH
+    - /bin/cp video-example.html $DEPLOYPATH
+    - /bin/cp w3.css $DEPLOYPATH
+    - /bin/cp watch.html $DEPLOYPATH
+    - /bin/cp what-we-believe.html $DEPLOYPATH
