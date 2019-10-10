@@ -6,6 +6,7 @@ if(!$_SESSION['broadwn6_logins'])
 }
 ?>
 
+
 <h1>Welcome! You are authenticated.....!</h1>
 
 <a href="logout.php">Logout!</a>

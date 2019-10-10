@@ -1,8 +1,8 @@
 <?php
 if($_POST)
 {
-    $host="localhost";
-    $user="root";
+    $host="box5692.bluehost.com";
+    $user="broadwn6";
     $pass="";
     $db="broadwn6_logins";
     $username=$_POST['username'];
@@ -22,6 +22,7 @@ if($_POST)
 }
 ?>
 
+<html>
 <h1>Login</h1>
 <form method="POST">
     username:<br>
@@ -32,3 +33,4 @@ if($_POST)
         
     <input type="submit" value="Login">
 </form>
+</html>
