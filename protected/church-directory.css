@@ -1,0 +1,28 @@
+.directory-card {
+    margin: 350px -16px;
+    padding: -24px;
+    height: 150px;
+    background: rgba(255,255,255,0.7);
+}
+
+#directory1 {
+    background-image: url("/protected/brandon_bio_pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 16px;
+    max-width:100%;
+    height:500px;
+    min-width:425px;
+}
+
+#directory2 {
+    background-image: url("/protected/brandon_bio_pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 16px;
+    max-width:100%;
+    height:500px;
+    min-width:425px;
+}

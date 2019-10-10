@@ -1,0 +1,5 @@
+AuthUserFile /home1/broadwn6/.htpasswd
+AuthGroupFile /dev/null
+AuthName “broadwaychurch.site/directory”
+AuthType Basic
+require valid-user
