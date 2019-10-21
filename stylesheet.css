@@ -172,6 +172,58 @@ body, html {
    font-size: 16px;
   }
 
+/* Live Stream Countdown Timer on Watch Page */
+#countholderWatch .link {
+    margin-top: 40px;
+  }
+   
+  #countholderWatch a {
+    display: inline-block;
+    color: #cc3000;
+    font-size: 20px;
+    padding: 20px;
+    background: #265;
+    border-radius: 0px;
+    text-decoration: none;
+  }
+   
+  #countholderWatch a:hover {
+    background: #487;
+  }
+   
+  #countholderWatch {
+   font-family: sans-serif;
+   color: #cc3000;
+   display: inline-block;
+   font-weight: 100;
+   text-align: center;
+   font-size: 48px;
+   background-color: transparent;
+   padding: 20px;
+   border-radius: 6px;
+   margin-bottom: 30px;
+   line-height: 1.4;
+  }
+   
+   
+  #countholderWatch > div{
+   padding: 4px 10px;
+   border-radius: 6px;
+   background: transparent;
+   display: inline-block;
+  }
+   
+  #countholderWatch div > span{
+   border-radius: 6px;
+   background: transparent;
+   display: inline-block;
+  }
+   
+  #countholderWatch .smalltext{
+   padding-top: 5px;
+   font-size: 16px;
+  }
+
 
 /* Pastor Profile Cards */
 .staff-card {
