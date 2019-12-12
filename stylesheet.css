@@ -587,3 +587,34 @@ body, html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+/* FPU Page */
+#fpu-main {
+    background-image: url("assets/images/fpu-banner-stress.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 650px;
+    margin-top: 32px;
+}
+
+#fpu-main-medium {
+    background-image: url("assets/images/fpu-banner-stress.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 400px;
+    margin-top: 32px;
+}
+
+#fpu-main-small {
+    background-image: url("assets/images/fpu-banner-stress.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 275px;
+    margin-top: 32px;
+}
