@@ -233,8 +233,8 @@ body, html {
     background: rgba(255,255,255,0.8);
 }
 
-#timCard {
-    background-image: url("assets/images/tim_profile.jpeg");
+#pastorCard {
+    background-image: url("assets/images/logo_red.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
