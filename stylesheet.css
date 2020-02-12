@@ -45,61 +45,61 @@ body, html {
 /* Second image (Core Convictions) */
 .bgimg-2 {
     background-image: url("assets/images/convictions_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
 }
 
 /* Third image (Staff) */
 .bgimg-3 {
     background-image: url("assets/images/index_church_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
 }
 
 /* Fourth image (Kids) */
 .bgimg-4 {
     background-image: url("assets/images/kids_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
     opacity:.75;
 }
 
 /* Fifth image (Adults) */
 .bgimg-5 {
     background-image: url("assets/images/adults_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
     opacity:.75;
 }
 
 /* Sixth image (Students) */
 .bgimg-6 {
     background-image: url("assets/images/students_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
     opacity:.75;
 }
 
 /* Seventh image (Worship) */
 .bgimg-7 {
     background-image: url("assets/images/worship_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
     opacity:.75;
 }
 
 /* Eighth image (Preschool) */
 .bgimg-8 {
     background-image: url("assets/images/preschool_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
     opacity:.75;
 }
 
 /* Ninth image (Church Main) */
 .bgimg-9 {
     background-image: url("assets/images/church_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
     opacity:.75;
 }
 
 /* Tenth image (Women Main) */
 .bgimg-10 {
     background-image: url("assets/images/women_main.jpg");
-    min-height: 600px;
+    min-height: 100%;
     opacity:.75;
 }
 
@@ -358,14 +358,6 @@ body, html {
 
 .w3-profile:disabled:hover {
     box-shadow:none
-}
-
-.w3-bio-pic {
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
 }
 
 
