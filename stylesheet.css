@@ -323,6 +323,16 @@ body, html {
     height:400px;
 }
 
+#placeholderCard {
+    background-image: url("assets/images/logo_red.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 16px;
+    max-width:100%;
+    height:400px;
+}
+
 
 /* Profile Modal Button */
 .w3-profile {
