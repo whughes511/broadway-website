@@ -34,6 +34,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
 }
 
 /* First image (Main. Full height) */
@@ -223,115 +224,6 @@ body, html {
    padding-top: 5px;
    font-size: 16px;
   }
-
-
-/* Pastor Profile Cards */
-.staff-card {
-    margin: 275px -16px;
-    padding: -4px;
-    height: 125px;
-    background: rgba(255,255,255,0.8);
-}
-
-#pastorCard {
-    background-image: url("assets/images/logo_red.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#brandonCard {
-    background-image: url("assets/images/brandon_profile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#stanCard {
-    background-image: url("assets/images/stan_profile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#jasonCard {
-    background-image: url("assets/images/jason_profile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#johnCard {
-    background-image: url("assets/images/john_profile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#carleneCard {
-    background-image: url("assets/images/carlene_profile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#jakeCard {
-    background-image: url("assets/images/jake_profile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#lisaCard {
-    background-image: url("assets/images/lisa_profile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#mindyCard {
-    background-image: url("assets/images/mindy_profile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
-
-#placeholderCard {
-    background-image: url("assets/images/logo_red.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px;
-    max-width:100%;
-    height:400px;
-}
 
 
 /* Profile Modal Button */
