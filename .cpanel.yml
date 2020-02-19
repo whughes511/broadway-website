@@ -38,7 +38,7 @@ deployment:
     - /bin/cp script.js $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
     - /bin/cp snippets.html $DEPLOYPATH
-    - /bin/cp staff.html $DEPLOYPATH
+    - /bin/cp our-staff.html $DEPLOYPATH
     - /bin/cp stylesheet.css $DEPLOYPATH
     - /bin/cp video-example.html $DEPLOYPATH
     - /bin/cp w3.css $DEPLOYPATH
